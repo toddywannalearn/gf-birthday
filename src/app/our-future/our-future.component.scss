@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #642d3b;
+    background-image: url("/assets/img/waves.svg");
+    background-repeat: no-repeat;
+    height: 780px;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+
+  section {
+    
+  }
+
+  header {
+    margin-top: 20px;
+    margin-bottom: 80px;
+  }
+
+  h1 {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    line-height: 85.31px;
+    font-size: 64px;
+    color: white;
+  }
+
+  p {
+    font-family: "Roboto", sans-serif;
+    font-size: 28px;
+    color: white;
+    font-weight: 100;
+    font-style: normal;
+    max-width: 700px;
+  }
+
+  button {
+    border: none;
+    background-color: transparent;
+  }
+  
+svg {
+    transform: rotate(180deg);
+    fill: transparent;
+
+    &:hover {
+        cursor: pointer;
+      }
+    
+      &:active {
+        fill: #807B7B;
+      }
+}
+
+  
