@@ -8,6 +8,8 @@ import { MyLovePageComponent } from './my-love-page/my-love-page.component';
 import { LoveInYouPageComponent } from './love-in-you-page/love-in-you-page.component';
 import { BirthdayComponent } from './birthday/birthday.component';
 import { OurFutureComponent } from './our-future/our-future.component';
+import { TillNowPageComponent } from './till-now-page/till-now-page.component';
+import { GiftsPageComponent } from './gifts-page/gifts-page.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { OurFutureComponent } from './our-future/our-future.component';
     MyLovePageComponent,
     LoveInYouPageComponent,
     BirthdayComponent,
-    OurFutureComponent
+    OurFutureComponent,
+    TillNowPageComponent,
+    GiftsPageComponent
   ],
   imports: [
     BrowserModule,

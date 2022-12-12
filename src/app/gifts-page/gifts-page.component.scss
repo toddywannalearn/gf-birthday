@@ -8,13 +8,14 @@
     background-color: #642d3b;
     background-image: url("/assets/img/waves.svg");
     background-repeat: no-repeat;
-    height: 780px;
+    height: 800px;
   }
   
   main {
     display: flex;
     justify-content: center;
     align-content: center;
+    //width: 700px;
   }
 
   section {
@@ -60,5 +61,6 @@ svg {
         fill: #807B7B;
       }
 }
+
 
   

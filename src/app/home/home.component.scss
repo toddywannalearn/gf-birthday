@@ -62,6 +62,7 @@ p {
   width: fit-content;
   align-content: flex-start;
   max-height: 720px;
+  margin-bottom: 30px;
 }
 
 .column {
@@ -87,10 +88,14 @@ p {
 
 .card__love-in-you {
     height: 354px;
+    background-image: url("/assets/img/hopi.png");
+    background-size: 100%;
 }
 
 .card__happy-birthday {
     height: 484px;
+    background-image: url("/assets/img/hot girl.png");
+    background-size: 100%;
 }
 
 .card__our-future {
@@ -107,6 +112,8 @@ p {
 
 .card__gifts {
     height: 499px;
+    background-image: url("/assets/img/duck.png");
+    background-size: 100%;
 }
 
 button {

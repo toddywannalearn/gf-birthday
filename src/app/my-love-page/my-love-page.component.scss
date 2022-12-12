@@ -8,6 +8,7 @@
     background-color: #642d3b;
     background-image: url("/assets/img/waves.svg");
     background-repeat: no-repeat;
+    background-size: contain;
     height: max-content;
   }
   
@@ -18,7 +19,7 @@
   }
 
   section {
-    
+    margin-bottom: 30px;
   }
 
   header {
