@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #642d3b;
+  background-image: url("/assets/img/waves.svg");
+  background-repeat: no-repeat;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  line-height: 85.31px;
+  font-size: 64px;
+  color: white;
+  //width: 387px;
+  text-align: center;
+
+  span:nth-child(1)  {
+   // line-height: 170.62px;
+    font-size: 128px;
+    color: #ed285b;
+  }
+
+  span:nth-child(3) {
+  //  line-height: 170.62px;
+    font-size: 128px;
+    color: #F58BA7;
+  }
+}
+
+h2 {
+  font-family: "Playfair Display", serif;
+  color: white;
+  font-size: 32px;
+  line-height: 42.66px;
+  font-weight: 400;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: white;
+  font-weight: 400;
+  line-height: 18.58px;
+}
+
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-top: 28px;
+  width: fit-content;
+  align-content: flex-start;
+  max-height: 720px;
+}
+
+.column {
+    display: grid;
+    gap: 12px;
+}
+
+.card {
+    width: 300px;
+    border-radius: 2px;
+    background-color: #606060;
+    padding: 10px 26px 26px 26px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+.card__my-love {
+  height: 354px;
+  background-image: url("/assets/img/caretas.png");
+  background-size: 100%;
+}
+
+.card__love-in-you {
+    height: 354px;
+}
+
+.card__happy-birthday {
+    height: 484px;
+}
+
+.card__our-future {
+    height: 224px;
+    background-image: url("/assets/img/baby.png");
+    background-size: 100%;
+}
+
+.card__till-now {
+    height: 208px;
+    background-image: url("/assets/img/us.png");
+    background-size: 100%;
+}
+
+.card__gifts {
+    height: 499px;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+  }
+  
+svg {
+    fill: transparent;
+
+    &:hover {
+        cursor: pointer;
+      }
+    
+      &:active {
+        fill: #807B7B;
+      }
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
